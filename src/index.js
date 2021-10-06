@@ -32,3 +32,10 @@ const players = [
 ];
 
 const listContainer = document.querySelector('#list-container');
+players.forEach(player => {
+  const li = document.createElement('li');
+  const span = document.createElement('span');
+  span.textContent = `${player.name}: ${player.score}`;
+  li.appendChild(span);
+  listContainer.appendChild(li);
+});
