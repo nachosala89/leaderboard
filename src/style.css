@@ -1,0 +1,9 @@
+#list-container {
+  border: 2px solid black;
+  list-style-type: none;
+  padding: 0;
+}
+
+li:nth-child(odd) {
+  background-color: #ccc;
+}
