@@ -3,9 +3,8 @@ const listContainer = document.querySelector('#list-container');
 export const populateList = (scores) => {
   scores.forEach((item) => {
     const li = document.createElement('li');
-    const span = document.createElement('span');
-    span.textContent = `${item.user}: ${item.score}`;
-    li.appendChild(span);
+    li.innerHTML = `<div><i class="fas fa-user pe-2"></i><span>${item.user}</span></div>
+      <span>${item.score}</span>`;
     listContainer.appendChild(li);
   });
 };
