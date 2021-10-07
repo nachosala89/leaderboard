@@ -13,8 +13,8 @@ export const populateList = (scores) => {
 export const getNewScore = () => {
   const name = document.querySelector('#name-in').value;
   const score = document.querySelector('#score-in').value;
-  return {user: name, score: score};
-}
+  return { user: name, score };
+};
 
 export const clearList = () => {
   listContainer.innerHTML = '';
