@@ -1,9 +1,48 @@
-#list-container {
-  border: 2px solid black;
-  list-style-type: none;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+body {
+  background: rgb(127,6,201);
+background: linear-gradient(132deg, rgba(127,6,201,1) 0%, rgba(95,9,121,1) 41%, rgba(255,0,236,1) 100%);
 }
 
-li:nth-child(odd) {
-  background-color: #ccc;
+h1 {
+  font-family: 'New Rocker', cursive;
+  font-size: 80px;
+  color: #e8e9ed;
+}
+
+h2 {
+  color: #ffc759;
+  font-size: 60px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+#list-container {
+  border: 4px solid #ffc759;
+  border-radius: 14px;
+  list-style-type: none;
+  padding: 8px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background-color: beige;
+  font-size: 32px;
+  font-family: 'Odibee Sans', cursive;
+  opacity: 0.8;
+}
+
+.fa-trophy {
+  color: rgb(255, 174, 0);
+}
+
+input {
+  padding: 4px;
+  border: 2px solid #ff7b9c;
+  border-radius: 10px;
 }
