@@ -46,3 +46,15 @@ input {
   border: 2px solid #ff7b9c;
   border-radius: 10px;
 }
+
+button {
+  border: 2px solid #e8e9ed;
+  border-radius: 50px;
+  padding: 6px;
+  background-color: #babfd1;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffc759;
+}
